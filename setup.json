@@ -1,11 +1,11 @@
 {
-    "url":"https://v1-nodebb-xyz-run.9a6d.starter-us-east-1a.openshiftapps.com",
+    "url":"http://127.0.0.1:8080",
     "port":"8080",
     "database": "redis",
     "redis": {
         "host": "10.129.27.122",
         "port": 6379,
-        "password": "GHmD5ixxKfCYdjfY",
+        "password": "GHmD5ixzKfCYdjfY",
         "database": "0"
     },
     "secret": "4154d41c-d081-41f6-9666-abb25f10353b"
