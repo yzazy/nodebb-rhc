@@ -11,7 +11,7 @@
   "main": "NodeBB/app.js",
   "scripts": {
     "install": "git clone https://github.com/NodeBB/NodeBB && cp setup.json NodeBB/config.json",
-    "start": "NodeBB/nodebb setup && node NodeBB/nodebb dev"
+    "start": "NodeBB/nodebb setup"
   },
   "dependencies": {
     "debug": "^3.1.0"
