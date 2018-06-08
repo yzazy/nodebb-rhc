@@ -12,8 +12,7 @@
   "scripts": {
     "install": "git clone https://github.com/NodeBB/NodeBB && cp setup.json NodeBB/config.json",
     "start": "./NodeBB/nodebb setup",
-    "update": "./NodeBB/nodebb upgrade",
-    "dev": "./NodeBB/nodebb dev",
+    "dev": "./NodeBB/nodebb upgrade && ./NodeBB/nodebb dev",
     "ok": "node NodeBB/app"
   },
   "dependencies": {
